@@ -2,11 +2,11 @@ import sys
 
 title_template = '<h1 style="text-align: center; font-size: 32px; font-weight: bold;">Assignment 4</h1>\n'
 
-error_template = '<h2 style="color: red; font-size: 18px;">Error</h2>\n<p>{{message}}</p>'
+error_template = '<h2 style="color: red; font-size: 24px; text-align: center;">Error</h2>\n<p style="font-size: 18px; text-align: center;">{{message}}</p>'
 
-warning_template = '<h2 style="color: orange; font-size: 18px;">Warning</h2>\n<p>{{message}}</p>'
+warning_template = '<h2 style="color: orange; font-size: 24px; text-align: center;">Warning</h2>\n<p style="font-size: 18px; text-align: center;">{{message}}</p>'
 
-result_template = '<h2 style="font-size: 24px;">Result</h2>\n<p>{{result}}</p>'
+result_template = '<h2 style="font-size: 24px; text-align: center;">Result</h2>\n<p style="font-size: 18px; text-align: center;">{{result}}</p>'
 
 try:
   a, b, c = map(int, sys.argv[1:])
