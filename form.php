@@ -54,6 +54,7 @@
   </head>
   <body>
     <form action="process.php" method="post" class="form">
+      <h1>Welcome to server <b>1</b></h1>
       <label class="label" for="a">
         <span>Input a value for <b>a</b></span>
         <input id="a" name="a" type="text" />
