@@ -56,15 +56,15 @@
     <form action="process.php" method="post" class="form">
       <label class="label" for="a">
         <span>Input a value for <b>a</b></span>
-        <input id="a" name="a" type="number" />
+        <input id="a" name="a" type="text" />
       </label>
       <label class="label" for="b">
         <span>Input a value for <b>b</b></span>
-        <input id="b" name="b" type="number" />
+        <input id="b" name="b" type="text" />
       </label>
       <label class="label" for="c">
         <span>Input a value for <b>c</b></span>
-        <input id="c" name="c" type="number" />
+        <input id="c" name="c" type="text" />
       </label>
       <button type="submit">Calculate</button>
     </form>
